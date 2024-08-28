@@ -17,7 +17,7 @@ class Coche:
     def cargar_gasolina(self, litros):
         self.gasolina += litros
         print(f"Se han añadido {litros} litros de gasolina. Gasolina total: {self.gasolina:.2f} litros.")
-coche1 = Coche(marca="Toyota", gasolina=5.0)
+coche1 = Coche("Toyota", 5.0)
 coche1.conducir(30)
 coche1.cargar_gasolina(10)
 coche1.conducir(50)
