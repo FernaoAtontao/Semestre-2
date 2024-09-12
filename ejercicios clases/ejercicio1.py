@@ -7,7 +7,7 @@ class Persona:
 
     def calcular_imc(self):
         if self.altura <= 0:
-            raise ValueError("La altura debe ser mayor que cero.")
+            raise ValueError("La altura tiene que ser más grande que cero.")
         imc = self.peso / self.altura ** 2
         estado = ("bajo peso" if imc < 18.5 else
                   "peso normal" if imc < 25 else
